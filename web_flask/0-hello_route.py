@@ -10,7 +10,7 @@ app.url_map.strict_slashes = False
 
 
 @app.route('/airbnb-onepage/')
-def index():
+def hello():
     '''The home page.'''
     return 'Hello HBNB!'
 
